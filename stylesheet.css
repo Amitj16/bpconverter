@@ -1,0 +1,70 @@
+body {
+    background-color: #eee;
+    text-align: center;
+}
+
+button {
+    background-color: rgba(0,0,0,0);
+    outline:auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+input {
+    width: 100%;
+    
+    border: 2px solid #f3c66d;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  
+    background-color: rgba(92, 14, 194, 0.4);
+    
+    color: #16d60f;
+    font-size: 14px;
+}
+
+
+form {
+    background-color: #fff;
+  
+    color: #000;
+    box-shadow: 4px 2px 4px 6px rgba(234, 98, 98, 0.4);
+}
+
+form p {
+    margin-bottom: 5px;
+}
+
+form p:nth-child(1){
+    margin-top: 0;
+}
+
+.panel {
+    margin-top: 20px;
+    float: none;
+}
+
+@media (min-width: 768px) {
+    .panel {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .panel {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
